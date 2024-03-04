@@ -1,4 +1,4 @@
-const API_KEY = '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';
+const API_KEY = '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';
 
 async function getCompletion(promt) {
     const res = await fetch('https://api.openai.com/v1/chat/completions', { // Cambio aquí
